@@ -1,4 +1,13 @@
 body{
 	background-color: green;
 	display: block;
+	<div class=”row”>
+	<div class=”col-9”>
+}
+
+
+
+.img {
+	width: 450px;
+	height: auto;
 }
