@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Moja strona</title>
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+
+	<div class="container">
+		
+		<div class="mb-3">
+			<label for="exampleFormControlInput1" class="form-label">Imię</label>
+			<input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Podaj imię">
+		</div>
+		
+		<div class="mb-3">
+			<label for="exampleFormControlInput1" class="form-label">Nazwisko</label>
+			<input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Podaj nazwisko">
+		</div>
+		
+		<div class="mb-3">
+			<label for="exampleFormControlInput1" class="form-label">E-mail</label>
+			<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Podaj email">
+		</div>
+		
+		<div>
+			<label for="exampleFormControlInput1" class="form-label">Płeć</label>
+		</div>
+		
+		<div class="form-check form-check-inline">
+		
+			<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="Kobieta">
+			<label class="form-check-label" for="inlineRadio1">Kobieta</label>
+		</div>
+		
+		<div class="form-check form-check-inline">
+			<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="Mężczyzna">
+			<label class="form-check-label" for="inlineRadio2">Mężczyzna</label>
+		</div>
+		
+		<div>
+			<label for="exampleFormControlInput1" class="form-label">Wiek</label>
+		</div>
+		
+		<div>
+			<input type="number" name="nazwa" value="wartość" checked>
+		</div>
+		
+		<div class="mb-3">
+			<label for="exampleFormControlTextarea1" class="form-label">Treść wiadomości</label>
+			<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+		</div>
+		
+		<div>
+			<label for="exampleFormControlTextarea1" class="form-label">Stan cywilny</label>
+		</div>
+		
+		<select>
+			<option value="brak">-</option>
+			<option value="kawaler/panna">kawaler/panna</option>
+			<option value="żonaty/zamężna">żonaty/zamężna</option>
+			<option value="wdowiec/wdowa">wdowiec/wdowa</option>
+			<option value="rozwiedziony/rozwiedziona">rozwiedziony/rozwiedziona</option>
+		</select>
+		
+		<div>
+			<button class="btn btn-primary" type="button">Wyślij</button>
+			<button class="btn btn-primary" type="submit">Wyczyść</button>
+		</div>
+
+	
+	</div>
+
+</body>
+</html>
