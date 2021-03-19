@@ -1,13 +1,25 @@
 body{
-	background-color: green;
+	background-color: grey;
 	display: block;
 	<div class=”row”>
 	<div class=”col-9”>
 }
 
-
+.navbar{
+	display: inline;
+	font-size: 20px;
+}
 
 .img {
 	width: 450px;
 	height: auto;
+}
+
+.footer {
+	margin-top: 20px;
+	background-color: black;
+	clear: both;
+	float: bottom;
+	text-align: center;
+	color: white;
 }
