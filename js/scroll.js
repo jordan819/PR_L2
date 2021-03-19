@@ -10,9 +10,6 @@ function goToTop() {
 	document.documentElement.scrollTop = 0;
 }
 
-//ukrycie przycisku przy wejściu na stronę
-document.querySelector(".scroll").style.display = "none";
-
 //dodanie funkcji odpowiedzialnej za pojawianie się przycisku po zjechaniu 200px w dół
 function showTopButton() {
 if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
